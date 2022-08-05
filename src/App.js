@@ -41,7 +41,7 @@ const App = () => {
           </span>
         </p>
         <p>Total: {total}</p>
-        <p>{total > 10000 && 'Voce ta gastando muito.'}</p>
+        <p>{total > 10000 && ''}</p>
       </div>
     </>
   );
